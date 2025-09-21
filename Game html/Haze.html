@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/HazeMain.css">
+    <link rel="stylesheet" href="./style/HazeObjects.css">
+</head>
+
+<body>
+    <script src="./JS/HazeVariables.js"></script>
+    <script src="./JS/Haze.js"></script>
+    <script src="./JS/hazeControls.js"></script>
+
+    <div id="obstruction1">
+
+    </div>
+
+    <i class="fa-solid fa-ghost" id="Hazer"></i>
+
+    <div id="game-ground">
+        <img src="./resources/background.png" />
+    </div>
+    <!-- <div id="trees">
+            <img src="" id="tree1">
+        </div> -->
+
+    <div id="controls">
+        <button aria-keyshortcuts="ArrowUp" onclick="moveUp()" id="up"><i class="fa-solid fa-caret-up"></i></button>
+        <button aria-keyshortcuts="ArrowDown" onclick="movedown()" id="down"><i
+                class="fa-solid fa-caret-down"></i></button>
+        <button aria-keyshortcuts="ArrowRight" onclick="moveRight()" id="right"><i
+                class="fa-solid fa-caret-right"></i></button>
+        <button aria-keyshortcuts="ArrowLeft" onclick="moveLeft()" id="left"><i
+                class="fa-solid fa-caret-left"></i></button>
+        <button aria-keyshortcuts=" " onclick="change1()" id="power"><i class="fa-solid fa-circle-dot"
+                id="power-button"></i></button>
+    </div>
+
+    <button onclick="play()" id="play-audio"><i class="fa-solid fa-volume-high"></i></button>
+    <button onclick="playoff()" id="play-audiooff"><i class="fa-solid fa-volume-xmark"></i></button>
+
+    <audio id="audio" controls loop>
+        <source src="./resources/retro-bounce-334381.mp3" />
+    </audio>
+
+</body>
+
+</html>

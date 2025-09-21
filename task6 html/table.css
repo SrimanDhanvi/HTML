@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 20px 160px;
+}
+
+div {
+    height: 617px;
+    overflow: scroll;
+}
+
+#activities {
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+#activities tr {
+    height: 60px;
+}
+
+#activities th {
+    color: white;
+}
+
+#activities td {
+    color: rgb(133, 131, 131);
+}
+
+#activities th, td {
+    padding-left:35px ;
+    /* border: 2px solid black; */
+}
+
+#activities thead {
+    background-color: #6c7ae0;  
+}
+
+#activities tbody tr:nth-child(even) {
+    background-color: #f8f6ff;
+}
+
+#activities tbody tr:hover {
+    background-color: #f8f6ff;
+    
+}

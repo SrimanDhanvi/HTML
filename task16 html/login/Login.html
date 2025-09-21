@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Login.css" />
+</head>
+
+<body>
+    <script src="Login.js"></script>
+    <div id="login-content-form">
+        <h1>Login</h1>
+        <form>
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Phone Number" name="Phno" id="Phno" />
+            <p id="notify-phno"></p>
+            <label>Password</label>
+            <input type="password" placeholder="Enter password" name="PS" id="PS" />
+            <i class="fa-solid fa-eye" id="toggel-icon" onclick="passwordShow()"></i>
+            <p id="notify-pass"></p>
+            <a href="https://support.google.com/">Forget Password?</a>
+        </form>
+
+        <button onclick="validate()">SUBMIT</button>
+        <a href="../Reisteration form/Registerform.html" id="Rgister-link">Don't have an
+            account?<span>Register</span></a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+body {
+    margin: 0%;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+#header {
+    margin: 0%;
+}
+
+#first-header {
+   padding: 25px 20px;
+   height: 30px;
+}
+
+#logo {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    left: 10%;
+}
+
+#paperplaneicon {
+    position: absolute;
+    top: 28px;
+    left: 37%;
+    width: 25px;
+}
+
+#email {
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+    margin: 0%;
+    top: 23px;
+    font-size:15px;
+}
+
+#email-address {
+   color: rgb(49, 48, 48);
+   position: absolute;
+   left: 40% ;
+   top: 25px;
+   font-size: 15px;
+}
+
+#bluephone {
+   width: 40px;
+   position: absolute;
+   left: 57%;
+   top: 18px;
+}
+
+#Call {
+    font-weight: bold;
+    position: absolute;
+    left: 60%;
+    margin: 0%;
+    top: 23px;
+    font-size:15px;
+}
+
+#phone-number {
+   color: rgb(49, 48, 48);
+   position: absolute;
+   left: 60% ;
+   top: 25px;
+   font-size: 15px;
+}
+
+#button1 {
+    border: 0px solid #1b9de3;
+    background-color: #1b9de3;
+    border-radius: 100px;
+    width: 15%;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 75%;
+}
+
+#button-text {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+#second-header {
+    background-color: #0d1129;
+    height: 60px;
+}
+
+#second-header a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+}
+
+#home, #about, #project, #services,#blog,#contact {
+    height: 60px;
+   width: 100px;
+   position: absolute;
+   text-align: center;
+   /* border: 2px solid black; */
+}
+
+#home {
+    left: 8%;
+}
+
+#about{
+    left: 15% ;
+}
+#project {
+    left: 22%;
+}
+
+#services {
+    left: 29%;
+}
+
+#blog {
+    left: 36%;
+}
+
+#contact {
+   left: 43%;
+}
+
+#search {
+    position: relative;
+    border: 2px solid #25283d;
+    border-radius: 200px;
+    margin: 0%;
+    width: 250px;
+    height: 48px;
+    top: 5px;
+    left: 72%;
+}
+
+#search-text {
+    position: absolute;
+    color: rgb(164, 164, 164);
+    vertical-align: middle;
+    left: 20px;
+}
+
+#search-symbol {
+    position: absolute;
+    color: rgb(164, 164, 164);
+    margin: 0%;
+    vertical-align: middle;
+    font-size: 30px;
+    top: 4px;
+    left: 210px;
+}
+
+#first-page {
+    background-image: url(bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 150px 200px;
+}
+
+#first-page p {
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+#first-page h1 {
+    color: white;
+    font-size: 60px;
+}
+
+#button2 {
+    background-color: #1b9de3;
+    border: 0px;
+    height: 60px;
+    width: 150px;
+    border-radius: 200px;
+}
+
+#button2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#first-page div {
+    /* border: 2px solid black; */
+    width: 600px;
+}

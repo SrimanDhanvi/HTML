@@ -1,0 +1,16 @@
+
+#obstruction1 {
+
+    height: 20px;
+    width: 50px;
+    float: left;
+    position: absolute;
+    left: 48%;
+    z-index: 2;
+    border: 2px solid black;
+}
+
+#trees {
+    z-index: 98;
+    position: absolute;
+}

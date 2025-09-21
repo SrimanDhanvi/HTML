@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formfilling.css" />
+</head>
+
+<body>
+    <script src="formfilling.js"></script>
+
+    <div id="website">
+        <div id="form">
+            <h1>FORM</h1>
+            <form>
+                <label>First Name</label>
+                <input type="text" placeholder="First Name" name="First-name" id="First-name" />
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name" name="Last-name" id="Last-name" />
+                <label>Email</label>
+                <input type="email" placeholder="Email" name="email" id="email" />
+                <label>Phone Number</label>
+                <input type="number" placeholder="Phone Number" name="Phno" id="Phno" />
+                <label>Date of Birth</label>
+                <input type="date" name="BD" id="BD" />
+            </form>
+            <button onclick="displayingit()">Display</button>
+
+            <div id="display">
+                <h3>Full Name: <span id="result6"></span></h3>
+                <h3>Email: <span id="result3"></span></h3>
+                <h3>Phone Number: <span id="result4"></span></h3>
+                <h3>Date of Birth: <span id="result5"></span></h3>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

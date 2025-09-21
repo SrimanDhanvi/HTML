@@ -1,0 +1,190 @@
+body {
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background-image: url(https://profile.w3schools.com/static/media/bg.f12e34b55e04ab44ab09.svg);
+    text-align: center;
+    /* height: 45px; */
+    padding: 10px;
+}
+
+#header p, #header span, #header a {
+    color: white;
+    margin: 0%;
+}
+
+#header span {
+    font-weight: bold;
+}
+
+#first-page {
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 350px;
+    background-color: #282a36;
+}
+
+#left-side {
+
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 25%;
+}
+
+#left-side h1, h2, li {
+    color: white;
+}
+
+#left-side h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 0%;
+}
+
+#left-side h2 {
+    font-weight: 400;
+    margin-top: 2%;
+}
+
+#left-side ul {
+      list-style: none;
+      padding-left: 10px;
+}
+
+#left-side li {
+    margin: 10px 0px;
+}
+
+#left-side li i {
+    position: relative;
+    right: 10px;
+    color: #03ab6d;
+}
+
+#right-side {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 50px;
+}
+
+#right-side h1 {
+    font-weight: 600;
+    color: #212529;
+}
+
+#random {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;   
+}
+
+#random p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#random span {
+    color: #00c753;
+}
+
+#media-connectors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center;
+}
+
+.media-boxes {
+     border: 2px solid rgb(152, 151, 151) ;
+     border-radius: 5px;
+     width: 170px;
+     height: 40px;
+     /* display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     column-gap: 50px; */
+}
+
+.media-boxes p {
+    font-size: 15px;
+    font-weight: 500;
+    float: left;
+    vertical-align: middle;
+    margin: 0%;
+    position: relative;
+    top: 8px;
+    left: 20px;
+}
+
+.media-boxes i {
+    float: right;
+    position: relative;
+    font-size: 20px;
+    top: 10px;
+    right: 20px;
+}
+
+#or {
+    font-size: large;
+    color: #b6b7b8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    height: 35px;
+    border: 1px solid #b6b7b8;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding-left: 15px;
+}
+
+#signing {
+    display: flex;
+    flex-direction: column;
+}
+
+#signing input {
+    color: white;
+    background-color: #03ab6d;
+}
+
+#policy p{
+     text-align: center;
+     font-weight: 500;
+}
+
+#policy a{
+    color: #0d6efd;
+}
+
+#policy input {
+    margin: 0%;
+    float: left;
+    position: relative;
+    left: 55px;
+}
+
+#warning {
+    float: right;
+    margin-top: 5px;
+    position: relative;
+    right: 47px;
+}
+
+
+
+

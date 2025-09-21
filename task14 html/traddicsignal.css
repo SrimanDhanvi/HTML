@@ -1,0 +1,81 @@
+
+body {
+    margin: 0%;
+}
+
+#contain-traffic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#traffic-signal {
+    height: 550px;
+    width: 250px;
+    margin: 100px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(233, 166, 41);
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#red, #orange, #green {
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgba(121, 121, 121, 0.632);
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0%;
+    margin-bottom: 100px;
+}
+
+#red-button, #orange-button, #green-button{
+    height: 50px;
+    width: 200px;
+    background-color: #4a4e69;
+    color: white;
+    border-radius: 5px;
+}
+
+#green-button:hover{
+    background-color: #535a85;
+}
+
+#orange-button:hover{
+    background-color: #535a85;
+}
+
+#red-button:hover{
+    background-color: #535a85;
+}
+
+#remove-button {
+    background-color: #9e2a2b;
+    color: white;
+    border-radius: 5px;
+}
+
+#remove-button:hover {
+    background-color: #b72c2e;
+}
+
+
+
+

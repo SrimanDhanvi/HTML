@@ -1,0 +1,129 @@
+body {
+    margin: 0%;
+    font-family: Arial, sans-serif,Poppins-Regular;
+}
+
+#first-header {
+    height: 40px;
+    background-color: #212121;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+}
+
+#first-header p{
+    position: relative;
+    float: left;
+    left: 10%;
+}
+
+#first-header a{
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: rgb(160, 160, 160) ;
+    border-left: 1px solid rgb(160, 160, 160);
+    border-right: 1px solid rgb(160, 160, 160);
+    padding: 13px 25px ;
+    height: 14px;
+    left: 50%;
+}
+
+#second-header {
+    /* border: 2px solid black; */
+    height: 80px;
+}
+
+#logo-iamge {
+    position: relative;
+    left: 10%;
+    float: left;
+    padding-top: 30px;
+}
+
+
+
+#second-header a{
+      text-decoration: none;
+      position: relative;
+      color: black;
+      float: left;
+      padding: 30px 15px;
+      left: 15%;
+}
+
+#cart {
+    position: relative;
+    height: 30px;
+    float: right;
+    padding: 25px 10px;
+    right: 10%;
+}
+
+#second-header p{
+    position: relative;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 10%;
+}
+
+#heart {
+   font-size: 30px;
+   margin-top: 18px;
+}
+
+#search {
+   font-size: 20px;
+   padding-top: 5px;
+}
+
+#first-page {
+    padding: 20px 10%;
+}
+
+#first-page-header {
+    /* border: 2px solid black; */
+    height: 150px;
+}
+
+#first-page-header h1 {
+    position: relative;
+    left: 2%;
+}
+
+.left-contenet {
+     float: left;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+.right-content {
+    position: relative;
+    float: right;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 8px 20px;
+    margin: 0px 10px;
+    color: #aba9a9;
+    right: 4%;
+}
+
+#first-page-content img {
+    height: 350px;
+}
+
+.image-content {
+    padding: 5px;
+    float: left;
+}
+
+#first-page-content h5 {
+    margin: 5px 0%;
+    color: #aba9a9;
+}
+
+#first-page-content p {
+    color: grey;
+    font-size: 90%;
+}
+

@@ -1,0 +1,100 @@
+body {
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    background-image: url(https://preview.redd.it/ertqcs0fhun71.jpg?width=1080&crop=smart&auto=webp&s=bd15a73dcce226bdac61c4a49d08bd1bcc9bc290);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#login-content-form {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(197, 174, 174, 0.87);
+    top: 80px;
+    left: 35%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(126, 125, 125);
+    align-content: center;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 40px;
+    width: 296px;
+    border: 2px solid rgba(98, 98, 98, 0.801);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: rgba(45, 45, 201, 0.693);
+    color: white;
+}
+
+p{
+    padding: 0%;
+    margin: 0%;
+}
+
+a{
+    position: relative;
+    width: fit-content;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    width: fit-content;
+    /* left: 180px; */
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+}
+
+#Rgister-link {
+    margin-bottom: 40px;
+}
+
+#Rgister-link span {
+    color: #188fffc7;
+}
+
+#notify-phno, #notify-pass {
+    color: rgba(255, 0, 0, 0.789);
+
+}
+
+i {
+    position: relative;
+    top: -40px;
+    left: 275px;
+    width: fit-content;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="Stylesheet" href="Tableform.css">
+</head>
+
+<body>
+
+    <script src="Tableform.js"></script>
+    <div id="data-displayed">
+        <table id="main-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date of Birth</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr id="data1">
+                </tr>
+                <tr id="data2">
+                </tr>
+                <tr id="data3">
+                </tr>
+                <tr id="data4">
+                </tr>
+                <tr id="data5">
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="data-input">
+        <table id="main-input">
+            <tbody>
+                <form>
+                    <tr>
+                        <td><input type="text" placeholder="1. Enter Name" name="name" id="name1" /></td>
+                        <td><input type="date" placeholder="Enter Date Of Birth" name="DOB" id="dob1" /></td>
+                        <td><input type="email" placeholder="Enter Email" name="email" id="email1" /></td>
+                        <td><input type="tel" placeholder="Enter Ph.no" name="phone" id="phone1" /></td>
+                        <td><input type="text" placeholder="Enter Address" name="Address" id="address1" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="2. Enter Name" name="name" id="name2" /></td>
+                        <td><input type="date" placeholder="Enter Date Of Birth" name="DOB" id="dob2" /></td>
+                        <td><input type="email" placeholder="Enter Email" name="email" id="email2" /></td>
+                        <td><input type="tel" placeholder="Enter Ph.no" name="phone" id="phone2" /></td>
+                        <td><input type="text" placeholder="Enter Address" name="Address" id="address2" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="3. Enter Name" name="name" id="name3" /></td>
+                        <td><input type="date" placeholder="Enter Date Of Birth" name="DOB" id="dob3" /></td>
+                        <td><input type="email" placeholder="Enter Email" name="email" id="email3" /></td>
+                        <td><input type="tel" placeholder="Enter Ph.no" name="phone" id="phone3" /></td>
+                        <td><input type="text" placeholder="Enter Address" name="Address" id="address3" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="4. Enter Name" name="name" id="name4" /></td>
+                        <td><input type="date" placeholder="Enter Date Of Birth" name="DOB" id="dob4" /></td>
+                        <td><input type="email" placeholder="Enter Email" name="email" id="email4" /></td>
+                        <td><input type="tel" placeholder="Enter Ph.no" name="phone" id="phone4" /></td>
+                        <td><input type="text" placeholder="Enter Address" name="Address" id="address4" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="5. Enter Name" name="name" id="name5" /></td>
+                        <td>
+                            </th><input type="date" placeholder="Enter Date Of Birth" name="DOB" id="dob5" /></td>
+                        <td><input type="email" placeholder="Enter Email" name="email" id="email5" /></td>
+                        <td><input type="tel" placeholder="Enter Ph.no" name="phone" id="phone5" /></td>
+                        <td><input type="text" placeholder="Enter Address" name="Address" id="address5" /></td>
+                    </tr>
+                </form>
+            </tbody>
+        </table>
+    </div>
+
+    <button onclick="enterValue()">Add</button>
+</body>
+
+</html>

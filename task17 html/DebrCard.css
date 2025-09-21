@@ -1,0 +1,146 @@
+body {
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    background-color: #81b29a;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    padding: 20px 0px 20px 0px;
+    left: 38%;
+    width: 24%;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+
+}
+
+#content h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#content form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+    width: 300px;
+}
+
+#content form input {
+     width: 290px;
+     height: 40px;
+     padding-left: 10px;
+     border: 2px solid #ddd; 
+     border-radius: 5px;
+     font-size: 16px;
+     transition: border-color 0.3s ease;
+}
+
+#content form input:focus {
+    outline: none;
+    border-color: #1885f2;
+}
+
+#content form h4 {
+    margin: 0%;
+    color: #555;
+}
+
+#content button {
+    margin-top: 15px;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    left: 90px;
+    background-color: #1885f2;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#content button:hover {
+    background-color: #1565c0;
+}
+
+#content p {
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+}
+
+#image img {
+    margin-top: 5px;
+    height: 35px;
+    width: 60px;
+    object-fit: contain;
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+
+#image img:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+    #content {
+        left: 2.5%;
+        width: 360px;
+    }
+    
+    #image {
+        gap: 10px;
+    }
+    
+    #image img {
+        height: 30px;
+        width: 50px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 768px) {
+    #content {
+        left: 5%;
+        width: 360px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    #content {
+        left: 28%;
+        width: 360px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    #content {
+        left: 32%;
+        width: 360px;
+    }
+}

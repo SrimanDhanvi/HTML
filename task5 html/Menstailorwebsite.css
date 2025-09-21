@@ -1,0 +1,45 @@
+body {
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+
+#header {
+    /* border: 2px solid rgb(128, 125, 125); */
+    height: 110px;
+}
+
+#logo, #second-part {
+    float: left;
+}
+
+#logo {
+    position: relative;
+    margin: 35px 100px;
+}
+
+#second-part ul{
+    margin-top: 0%;
+}
+
+#second-part li {
+    float: left;
+    list-style-type: none;
+    padding: 46px 25px;
+}
+
+#second-part a {
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+    font-stretch: extra-expanded;
+}
+
+#third-part {
+    padding: 46px 100px;
+    float: right;
+    background-color: #c6a16e;
+}
+
+#third-part a {
+    text-decoration: none;
+    color: white;
+}

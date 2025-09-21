@@ -1,0 +1,67 @@
+body {
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+#website {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#form {
+    margin-top: 50px;
+    border: 1px solid rgb(151, 149, 149);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 2%;
+    width: 350px;
+    row-gap: 20px;
+}
+
+#form h1 {
+    margin-left: 36%;
+    margin-top: 0%;
+    font-family: "Cal Sans", sans-serif;
+    color: #4a7ba6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    row-gap: 20px;
+}
+
+form input {
+    width: 90%;
+    height: 30px;
+    border: 2px solid rgb(119, 118, 118);
+    border-radius: 2px;
+}
+
+#display {
+    display: none;
+}
+
+#display h3 span{
+    font-weight: 400;
+    color: red;
+}
+
+button {
+    height: 50px;
+    background-color: #4a7ba6;
+    border: 0px;
+}
+
+button:hover {
+    background-color: #4682b6;
+}

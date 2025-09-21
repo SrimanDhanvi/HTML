@@ -1,0 +1,41 @@
+body {
+    margin: 0%;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    background-image: url(animated-gifs-of-fighting-game-backgrounds-25.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div {
+    position: relative;
+    margin-top: 15%;
+    z-index: 99;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFF0;
+}
+
+img {
+    position: absolute;
+    z-index: 0;
+}
+
+#bottom-header {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgb(110, 110, 110);
+    height: 52px;
+}
+
+#bottom-header a {
+    position: relative;
+    display: inline-block;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Card Validator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="DebrCard.css" />
+</head>
+
+<body>
+    <script src="Debtcard.js"></script>
+
+    <div id="content">
+        <h2>Universal Card Validator</h2>
+        <form>
+            <label>
+                <h4>Card Number</h4>
+            </label>
+            <input type="text" placeholder="Enter card number (digits only)" name="DC" id="DC" maxlength="19" />
+        </form>
+        <button id="valid" onclick="CarValidation()">Validate Card</button>
+        <p id="notify"></p>
+        <div id="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRin-5xI1_iXJAmxnC1Gdn5IqnwOTy_J0PCGxleKj2isipoq3zPvUKns250dsdZaR6maTo&usqp=CAU"
+                alt="Master-card-logo" title="Mastercard" />
+            <img src="https://1000logos.net/wp-content/uploads/2017/06/VISA-symbol.jpg" alt="VISA-symbol" title="Visa">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/c/cb/20190826120255%21Rupay-Logo.png/120px-Rupay-Logo.png"
+                alt="Rupay-Logo" title="RuPay">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/1200px-American_Express_logo_%282018%29.svg.png" 
+                alt="American-Express" title="American Express" style="width: 60px; height: 35px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Discover_logo.svg/1200px-Discover_logo.svg.png" 
+                alt="Discover" title="Discover" style="width: 60px; height: 35px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/1200px-JCB_logo.svg.png" 
+                alt="JCB" title="JCB" style="width: 60px; height: 35px;">
+        </div>
+    </div>
+
+</body>
+
+</html>
